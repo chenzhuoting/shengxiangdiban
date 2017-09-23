@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>圣象地板首页</title>
+<style type="text/css">
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none}
+
+#header{width:1200px;height:77px;margin:0 auto;}
+.logo{float:left;position:absolute;}
+.nav{float:right;width:600px;height:77px;}
+ .nav ul{height:68px;line-height:68px;margin-top:5px;}
+ .nav li{font-size:16px;font-family:"微软雅黑";float:left;margin-left:63px;}
+ .nav li a{color:#4a4a4a;display:block;text-align:center;}
+ .nav li a:hover{color:#44866d;border-bottom:4px solid #44866d;}
+ .nav li .home{width:39px;border-bottom:4px solid #44866d;}
+
+#banner{width:1920px;height:750px;background:url(images/banner_02.jpg)}
+form{float:left;margin:400px 0 0 360px;}
+.btn{width:332px;height:64px;background:url(images/index_btn_04.jpg);background-color:transparent;border:none;cursor:pointer}
+
+#main{height:3175px;}
+.for_us{width:1200px;height:968px;margin:0 auto;}
+.for_us_top{height:386px;padding-top:77px;}
+.for_us_l{width:385px;height:386px;float:left}
+.for_us_l a:hover{color:#44866d}
+.for_us_l .p1{font-size:24px;font-family:"微软雅黑";color:#4a4a4a;line-height:36px;text-align:center;padding-top:147px;}
+.for_us_l .p2{font-size:24px;font-family:"微软雅黑";color:#4a4a4a;line-height:36px;text-align:center;}
+.for_us_more{width:98px;height:39px;margin:21px 0 0 145px;}
+.for_us_more a{color:#808080;}
+.for_us_more .p3{font-size:18px;font-family:"微软雅黑";color:#808080;float:left}
+.for_us_more img{float:left;padding-top:3px}
+.for_us_r{width:815px;height:386px;float:right}
+.for_us_r .p1{font-size:24px;font-family:"微软雅黑";color:#4a4a4a;line-height:36px;text-align:center;padding-top:64px;}
+.for_us_r .p2{font-size:16px;font-family:"微软雅黑";color:#4a4a4a;line-height:36px;text-align:center;margin-bottom:10px}
+.for_us_r .p3{width:686px;height:125px;font-size:16px;font-family:"微软雅黑";color:#808080;line-height:36px;margin-left:86px;letter-spacing:3px}
+
+.for_us_bot{height:386px;}
+.for_us_bot a{color:#FFF}
+.for_us_l2{width:385px;height:386px;float:left;background:#44866d;}
+ .for_us_l2 a:hover{color:#a6d0c0}
+.for_us_l2 .p1{font-size:24px;font-family:"微软雅黑";color:#fff;line-height:36px;text-align:center;padding-top:147px;}
+.for_us_more .p4{font-size:18px;font-family:"微软雅黑";color:#fff;float:left}
+
+.main_products{height:1143px;background:url(images/index_mian_banner_08.jpg) no-repeat top;}
+.products_inner{width:1200px;height:881px;margin:0 auto;padding-top:144px}
+.products_pic1{float:left;}
+.products_txt{width:600px;height:428px;float:left;background:#44866d;}
+.products_txt .p1{font-size:24px;font-family:"微软雅黑";color:#fff;line-height:36px;text-align:center;padding-top:194px;}
+.products_txt_more{width:98px;height:39px;margin:21px 0 0 253px;}
+.products_txt_more a:hover{color:#a6d0c0}
+.products_txt_more a{color:#FFF}
+.products_txt_more .p4{font-size:18px;font-family:"微软雅黑";color:#fff;float:left}
+.products_txt_more .img3{float:left;padding-top:3px}
+
+.main_news{height:1064px;background:url(images/index_main_news_19.jpg) no-repeat top;}
+.news_inner{width:1200px;height:1064px;margin:0 auto;}
+
+.main_news_bot{height:602px;padding-top:462px}
+.main_news1{width:370px;height:523px;float:left;}
+.main_news2{width:370px;height:523px;float:left;margin:0 45px 0 45px;}
+.news_txt{width:371px;height:77px;background:#44866d;}
+.news_txt h3{font-family:"微软雅黑";font-size:24px;color:#fff;font-weight:normal;float:left;margin:8px 0 0 14px;}
+.news_txt_top{width:371px;height:40px;}
+.news_txt_top .p1{font-family:"微软雅黑";font-size:16px;color:#fff;display:inline;float:left;margin:17px 0 0 13px;}
+.news_txt .p2{font-family:"微软雅黑";font-size:16px;color:#fff;float:left;margin:4px 0 0 14px;}
+.news_txt .p3{font-family:"微软雅黑";font-size:16px;color:#fff;float:left;margin:5px 10px;text-indent:2em}
+.news_txt a{color:#FFF}
+
+.main_news1{width:370px;height:523px;float:left;position: relative;}
+.main_news2{width:370px;height:523px;float:left;position: relative;}
+.news_txt{width:371px;height:77px;background:#44866d;position:absolute;left:0px;bottom:0px;overflow:hidden;transition:all .7s ;}
+.news_txt:hover {height: 277px;transition: height 1s;}
+.news_txt .p3{opacity:0; transition:all .7s;}
+.news_txt:hover .p3 {opacity:1; transition:all 1s ;cursor:pointer;}
+
+
+#footer{height:240px;border-top:1px #44866d solid;border-bottom:1px rgba(67,134,109,0.3) solid;}
+.footer_inner{width:1200px;height:240px;margin:0 auto;}
+
+.footer_top{width:120px;height:240px;float:left;position: relative;}
+.footer_top a{color:#808080;}
+.footer_top1{width:140px;height:240px;float:left;position: relative;}
+.footer_top1 a{color:#808080;}
+h4{font-family:"微软雅黑";font-size:18px;color:#4a4a4a;margin-top:43px;font-weight:normal;margin-bottom:1px}
+h4 a:hover{color:#44866d;}
+.footer_top1 li{font-family:"微软雅黑";font-size:16px;color:#808080; line-height:34px;}
+.footer_top1 li a:hover{color:#44866d;}
+.footer_top8{width:212px;height:240px;float:left;}
+.footer_top8 a{color:#808080;}
+.footer_qr{width:240px;height:103px;padding-top:16px}
+.footer_qr .img1{float:left;}
+.footer_qr .img2{float:right;}
+
+#copy{height:102px;}
+.copy_txt{text-align:center;font-size:12px;font-family:"微软雅黑";color:#808080;padding-top:35px;}
+
+
+</style>
+
+</head>
+
+<body>
+	<div id="header">
+    	<div class="logo"><img src="images/logo_02.jpg"/></div>
+            <div class="nav">
+        	<ul class="nav_ul">
+    			<li style="margin-left:0;"><a href="index.html" class="home">首页</a></li>
+       			<li><a href="product.html">产品展示</a></li>
+        		<li><a href="news.html">新闻资讯</a></li>
+        		<li><a href="about.html">关于圣象</a></li>
+        		<li><a href="#">网上商城</a></li>
+			</ul>
+        </div>
+    </div>
+    <div id="banner">
+        <form>
+        	<a href="#"><input type="button" class="btn" value=" "/></a>
+        </form>	
+    </div>
+    <div id="main">
+    	<div class="for_us">
+        	<div class="for_us_top">
+            	<div class="for_us_l">
+                	<p class="p1">在中国推出E0环保标准</p>
+                    <p class="p2">逆向OEM的中国地板企业</p>
+                    <div class="for_us_more">
+                    	<p class="p3"><a href="#">查看更多</a></p>
+                    	<div class="img"><a href="#"><img src="images/index_jt.png"/></a></div>
+                    </div>    
+                </div>
+                <div class="for_us_r"><img src="images/index_main_pic_05.jpg"/></div>
+            </div>
+            <div class="for_us_bot">
+            	<div class="for_us_l2">
+                	<p class="p1">品牌文化·永不止步</p>
+                    <div class="for_us_more">
+                    	<p class="p4"><a href="#">查看更多</a></p>
+                    	<div class="img"><a href="#"><img src="images/index_jt_w.png"/></a></div>
+                    </div>    
+                </div>
+                <div class="for_us_r">
+                	<p class="p1">关于我们</p>
+                    <p class="p2">about us</p>
+                    <p class="p3">圣象集团成立于1995年，总部位于上海，是国内强化地板的鼻祖。20年来圣象从地板领军者，到家居梦想践行者，始终站在行业的前端，并以前瞻的视野、创新的思维和拼搏的精神，不断提升自身优势，创造了前无古人的辉煌成绩，以一个个耀目的“第一”引领和推动行业的整体发展。</p>
+                </div>
+            </div>
+        </div>
+        <div class="main_products">
+        	<div class="products_inner">
+            	<div class="products_pic1"><img src="images/index_zs_10.jpg"/></div>
+                <div class="products_txt">
+                	<p class="p1">您可根据风格选择您的产品</p>
+                  <div class="products_txt_more">
+                    	<p class="p4"><a href="#">查看风格</a></p>
+                    	<div class="img3"><img src="images/index_jt_w.png"/></div>
+                  </div>
+                </div>
+                <div class="products_pic1"><img src="images/index_zs_02.jpg"/></div>
+                <div class="products_pic1"><img src="images/index_zs_14.jpg"/></div>
+            </div>
+        </div>
+        <div class="main_news">
+        	<div class="news_inner">
+                <div class="main_news_bot">
+                    <div class="main_news1">
+                        <div class="news_pic"><img src="images/index_news_22.jpg" /></div>
+                        <div class="news_txt">
+                            <div class="news_txt_top">
+                                <h3><a href="#">走进农村</a></h3>
+                                <p class="p1"><a href="#">2017.3.4</a></p>
+                            </div>
+                            <div class="p2"><a href="#">Walk into the countryside</a></div>
+                            <p class="p3">日前，沈丘县政府与移联网信集团战略合作及电商进农村项目签约仪式举行，这标志着该县电商进农村项目正式启动。
+　　移联网信集团是一家在全国经营便民科技、连锁商超、产品贸易、广告传媒、电子商务等五大主要业务的综合型集团公司。该公司通过全国20多个省600多个县的20余万家加盟店，建立城乡之间的特色电子商务便民服务平台，结合本地商业、生活服务，构建“实体+虚拟”、“线上+线下”的O2O电商模式。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="main_news2">
+                        <div class="news_pic"><img src="images/index_news_24.jpg" /></div>
+                        <div class="news_txt">
+                        	<div class="news_txt_top">
+                                <h3><a href="#">环保活动大开展</a></h3>
+                                <p class="p1"><a href="#">2017.4.18</a></p>
+                            </div>
+                            <div class="p2"><a href="#">Environmental protection activities</a></div>
+                            <p class="p3">在经济飞速发展的今天，人们对环境的影响越来越大，环境污染问题已成为当代社会面临的重要问题。4月18号潍坊市小记者协会、潍坊市马拉松协会共同举办这次公益环保踏青活动，倡导大家爱护环境，文明出行。本次活动渗透环保理念到孩子及家长们的心中，保护环境，人人有责。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="main_news1">
+                        <div class="news_pic"><img src="images/index_news_26.jpg" /></div>
+                        <div class="news_txt">
+                        	<div class="news_txt_top">
+                                <h3><a href="#">室内装修大赛开启</a></h3>
+                                <p class="p1"><a href="#">2017.5.1</a></p>
+                            </div>
+                            <div class="p2"><a href="#">Interior decoration competition</a></div>
+                            <p class="p3">备受行业关注的2017第五届“艾舍奖”设计峰会在这个炎热的夏季开始火热报名了!自2013年第一届峰会启动以来，历经四届发展，“艾舍奖”始终秉承“塑造空间之美，传递设计价值”的初衷，努力契合建筑装饰产业链的融合趋势，填补了国内建筑装饰全产业链交流与合作的空白。“艾舍奖”已成为国内同行业最具影响力的品牌会议。
+第五届中国建筑装饰行业“艾舍奖”设计峰会主要面向中国装饰界绝大部分的品牌企业、艺术家、专业设计师、艺术院校师生等创意人群，是国内最活跃的原创设计赛事。参赛作品包括已建和在建工程、方案设计作品及学生作品。</p>
+                        </div>
+                    </div>
+            	</div>	
+            </div>
+        </div>
+    
+    </div>
+    
+    
+<div id="footer">
+    	<div class="footer_inner">
+            	<div class="footer_top">
+                	<h4><a href="#">首 页</h4>
+                </div>
+                
+            	<div class="footer_top1">
+                	<h4><a href="#">产品展示</h4>
+                    <ul>
+                    	<li><a href="#">圣象强化地板</a></li>
+                        <li><a href="#">圣象艾斯本</a></li>
+                        <li><a href="#">圣象康逸</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer_top1">
+                	<h4><a href="#">新闻资讯</h4>
+                    <ul>
+                    	<li><a href="#">公司新闻</a></li>
+                        <li><a href="#">行业动态</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer_top1">
+                	<h4><a href="#">关于圣象</h4>
+                    <ul>
+                    	<li><a href="#">公司简介</a></li>
+                        <li><a href="#">品牌理念</a></li>
+                        <li><a href="#">公司荣誉</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer_top1">
+                	<h4><a href="#">网上商城</h4>
+                    <ul>
+                    	<li><a href="#">官方天猫</a></li>
+                        <li><a href="#">官方淘宝</a></li>
+                        <li><a href="#">官方京东</a></li>
+                        <li><a href="#">官方苏宁</a></li>
+                    </ul>
+                </div>
+            	
+                <div class="footer_top1">
+                	<h4><a href="#">客户服务</h4>
+                    <ul>
+                    	<li><a href="#">安装说明</a></li>
+                        <li><a href="#">售后服务</a></li>
+                        <li><a href="#">产品保养</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer_top1">
+                	<h4><a href="#">加入我们</h4>
+                    <ul>
+                    	<li><a href="#">招贤纳士</a></li>
+                        <li><a href="#">招商加盟</a></li>
+                        <li><a href="#">申请加盟</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer_top8">
+                	<h4><a href="#">关注我们</h4>
+                    <div class="footer_qr">
+                    	<img class="img1" src="images/index_qr_30.jpg"/>
+                        <img class="img2" src="images/index_qr_30.jpg"/>
+                    </div>
+                </div>
+           		
+    	</div>
+    </div>
+    
+    
+<div id="copy">
+	<div class="copy_txt">
+    	<p>公司贸易预警平台| 隐身政策| 法律条款| 浙ICP备10200209号-1</p>
+        <p>@2010-2017 Power Dekor All Rights Reserved Power by ENIAC</p>
+    </div>
+</div>
+
+</body>
+</html>
